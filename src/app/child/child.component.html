@@ -1,0 +1,385 @@
+<!-- header  Start -->
+
+
+
+<div class="headPart">
+ 
+
+<div class="secondHeader">
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">PardhaSaradhi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href='#mySelf' style="color: white;">About My Self</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="#education">Educational Details</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="#workExperence">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="#certificate"> Certifications</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href='#personalInfo'>Personal Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;" href="#contactMe">Contact ME</a>
+        </li>
+        <li class="nav-item">
+        
+          <select [style.background-color]="backcolor"   name="" id="">
+           <option value="" disabled>Settings</option>
+            <option value="">BG C Change</option>
+            <option value="">BackGround</option>
+            <option value="">BackGround</option>
+          </select>
+        </li>   
+      </ul>
+    </div>  
+  </nav>
+  
+</div>
+</div>
+
+
+
+
+<br>
+
+
+<!-- Header Ends -->
+
+<div [style.background-color]="backcolor" id='background'>
+  <div class="container">
+   
+    <div class="row">
+      
+      <div class="col-md-3" style="position: inherit;">
+        <div class="card" class="firstCard">
+          <div class="card-head" style="margin-left: 25px">
+
+            <img data-toggle="modal" data-target="#myModal" class="card-head-img"
+              src="assets\PardhaImage\PardhaForPassprt.jpeg" width="200px" height="200px" alt="">
+
+
+            <div class="container">
+
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+
+                    <div class="modal-body">
+                      <p>PardhaSaradhi Mannem</p>
+                      <img class="mediaImg" src="assets\PardhaImage\PardhaForPassprt.jpeg" width="300px" height="400px"
+                        alt="">
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+          <div class="card-body">
+
+            <div class="heading" style="text-align: center; font-family:cursive">
+
+
+
+              <b>[ FRONTEND DEVELOPER ]</b>
+             
+            </div>
+            <div class="body"
+              style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+              <p> {{description}}</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <b>Phone: 9959423045</b>
+            PardhaSaradhi Mannem
+            <div>
+              <button (click)='changeColor()' class="btn btn-outline-primary">Change BG Color</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-9">
+        <div class="card" id='mySelf'>
+          <div class="card-head" style="background-color: rgb(62, 153, 189); color: white;">
+            A Little About MySelf
+          </div>
+          <div class="card-body">
+            <div class="heading" style="text-align: center; font-family:cursive">
+
+
+
+              <b style="border: 2px solid gray;">"It is the supreme art of the Programmer to awaken joy in creative
+                expression and knowledge." </b>
+
+              <h3><b> Welcome to My PortFolio!</b></h3>
+              <div class="dummy"> Having 1.6 years of experience in developing Web Applications using HTML (4/5), CSS
+                (2/3), JavaScript, TypeScript, Angular (4/7), Node. <br>js, Bootstrap, JSON. <br>
+
+                <a (click)='label=true' style="color: rgb(118, 124, 170);" *ngIf='!label'>ReadMore...</a>
+              </div>
+              <p *ngIf='label'> Experience in working with Angular 2/4 modules, services, templates, directives,
+                services and dependency injection to create a SPA. <br> Hands on Knowledge o CLI. <br>
+                Experience in Developing User Interface (UI) Rich Web Applications, and Web Service Applications using
+                Front End/User Interface (UI) Technologies like Object Oriented JavaScript, Type Script, Angular 2.
+                <br>0, Angular 4, Angular JS, Bootstrap,CSS Frameworks, Java. <br>
+                Expertise in Angular 7. <br>0 framework and its ability to create simple and scalable code for SPA. <br>
+                Worked extensively on Angular 7/ Typescript SPA domains. <br>
+                Hands on Experience on Angular CLI (Command line Interface). <br>
+                Good amount of work done on Reactive forms or Web Forms 2. <br>0 in Angular 7 and their Validations.
+                <br>
+                Extensively Worked on CSS Background, CSS Positioning, CSS Text, CSS Border, CSS Margin, CSS Sprites,
+                CSS Padding, CSS Table, Pseudo Elements & Classes and CSS Behaviors in CSS. <br>
+                Experience in making Responsive Web Pages using Media Queries and Bootstrap. <br>
+                Experience with various IDE’s such as Visual Studio Code, Web Strom, Sublime and Notepad++. <br>
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="card" id='education'>
+          <div class="card-head" style="background-color: rgb(62, 153, 189); color: white;">
+            Education Details
+          </div>
+          <div class="card-body">
+            <div class="heading" style="text-align: center; font-family:cursive">
+
+
+
+
+              <h3><b> My Education Details</b></h3>
+              <div class="dummy"> My Heighest Education is UnderGraduation Bachelor of Technology [BTECH]. Got Top
+                Marks in 10nth Standard, Intermediate and Graduation.<br>
+
+                <a (click)='education=true' style="color: rgb(118, 124, 170);" *ngIf='!education'>ReadMore...</a>
+              </div>
+              <table *ngIf='education' class="table">
+                <thead>
+                  <th *ngFor='let th of tableHead'>{{th}}</th>
+                </thead>
+                <tbody>
+                  <tr *ngFor='let ed of educationArray'>
+                    <td>{{ed.class}}</td>
+                    <td>{{ed.persent}}</td>
+                    <td>{{ed.college}}</td>
+                    <td>{{ed.University}}</td>
+                    <td>{{ed.completed}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="card" id='workExperence'>
+          <div class="card-head" style="background-color: rgb(62, 153, 189); color: white;">
+            Work Experience
+          </div>
+          <div class="card-body">
+            <div class="heading" style="text-align: center; font-family:cursive">
+
+
+
+
+              <h3><b> MY WORK EXPERIENCE</b></h3>
+              <div class="dummy"> Having 1.6 year’s of experience in developing Web Applications using HTML(5), CSS (3),
+                JavaScript, TypeScript, Angular (7), Angular CLI, NPM, Bootstrap, JSON.
+                <br>
+
+                <a (click)='workExperience=true' style="color: rgb(118, 124, 170);"
+                  *ngIf='!workExperience'>ReadMore...</a>
+              </div>
+              <div *ngIf='workExperience'>
+                <p> ✔ Experience in working with Angular 7 Modules, Services, Templates, Routing & Lazy Loading,
+                  Directives, Services and Dependency Injection to create a SPA. Hands on Knowledge on CLI.
+                  <br> ✔ Experience in Developing User Interface (UI) Rich Web Applications, and Web Service
+                  Applications using Front End/User Interface (UI) Technologies like Object Oriented TypeScript, Java
+                  Script, Angular 7, Bootstrap, CSS Frameworks.
+                  <br> ✔ Expertise in Angular 4/5/6/7/8 framework and its ability to create simple and scalable code for
+                  SinglePage Applications(SPA).
+                  <br> ✔ Worked extensively on Angular 7 Typescript SPA domains.
+                  <br> ✔ Hands on Experience on Angular CLI (Command line Interface).
+                  <br> ✔ Good amount of work done on Reactive Forms, Template Driven Forms or Web Forms 2.0 in Angular 7
+                  and their Validations.
+                  <br> ✔ Experience in making Responsive Web Pages using HTML, CSS and Bootstrap Using Angular
+                  Framework.
+                  <br> ✔ Experience with various IDE’s such as Visual Studio Code, Web Strom, SublimeText</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="card" id='certificate'>
+          <div class="card-head" style="background-color: rgb(62, 153, 189); color: white;">
+            My Certifications
+          </div>
+          <div class="card-body">
+            <div class="heading" style="text-align: center; font-family:cursive">
+
+             
+
+
+              <h3><b> MY CERTIFICATIONS</b></h3>
+              <div class="dummy"> A TestDome Certificate for Angular Developer.
+                Click link to see the ANGULAR Certificate. <a
+                target="_blank" href="https://www.testdome.com/cert/61a35d5790be437686a9b9011f67fda5">Click redirect to TestDome
+                  Certificate</a>
+                <br>
+
+                <a (click)='spinner()' style="color: rgb(118, 124, 170);" *ngIf='!certificate'>ReadMore...</a>
+              </div>
+              <div *ngIf='certificate'>
+                <div *ngIf='spin' class="spinner-border" style="margin-left: 100px;"></div>
+                <img src="assets\Images\Screenshot (250).png" alt="TestDome Certificate" height="200px" width="300px">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="card" id='personalInfo'>
+          <div class="card-head" style="background-color: rgb(62, 153, 189); color: white;">
+            MY PERSONAL INFORMATION
+          </div>
+          <div class="card-body">
+            <div class="heading" style="text-align: center; font-family:cursive">
+
+
+
+
+              <h3><b> Personal Information of Me</b></h3>
+              <div class="dummy">
+
+                <br>
+
+                <!-- <a (click)='personalInfo=true' style="color: rgb(118, 124, 170);" *ngIf='!personalInfo'>ReadMore...</a>
+</div>
+<div *ngIf='personalInfo'> -->
+
+                <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-8">
+                    <table class="table">
+                      <tr>
+                        <td>Name :</td>
+                        <td>PardhaSaradhi Mannem</td>
+                      </tr>
+                      <tr>
+                        <td>Father Name:</td>
+                        <td>Mallikarjuna</td>
+                      </tr>
+                      <tr>
+                        <td>Mother Name:</td>
+                        <td>Hymavathi</td>
+                      </tr>
+                      <tr>
+                        <td>Organisation:</td>
+                        <td>WFD Labs</td>
+                      </tr>
+                      <tr>
+                        <td>Working Location:</td>
+                        <td>Bengaluru</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="card" id='contactMe'>
+          <div class="card-head" style="background-color: rgb(62, 153, 189); color: white;">
+            CONTACT ME
+          </div>
+          <div class="card-body">
+            <div class="heading" style="text-align: center; font-family:cursive">
+
+
+
+
+              <h3><b> Contact ME</b></h3>
+              <div class="dummy">
+
+                <br>
+
+                <!-- <a (click)='personalInfo=true' style="color: rgb(118, 124, 170);" *ngIf='!personalInfo'>ReadMore...</a>
+</div>
+<div *ngIf='personalInfo'> -->
+
+                <span>
+                  <h3><img src="assets\Icons\icons8-gmail-48.png" alt="">: mannempardhu1@gmail.com</h3>
+                </span>
+
+                <span>
+                  <h1><img src="assets\Icons\icons8-phone-48.png" alt="">: 9959423045</h1>
+                </span>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <form (ngSubmit)='submitForm()'>
+          <label for="">UserID</label>
+          <input type="text" class="form-control" [(ngModel)]='userId' name="userId">
+          <label for="">PassWord</label>
+          <input type="text" class="form-control" [(ngModel)]='passWord' name="passWord">
+          <button class="btn btn-success" type="submit">Submit</button>
+        </form>
+
+
+
+
+      </div>
+    </div>
+    <input  type="text" class="form-control" [(ngModel)]='personName' name="personName" placeholder="YourName">
+ <textarea placeholder="Comment Here!" (click)='changed()' name="comment" id="comment" cols="30" rows="3"
+      [(ngModel)]='comment'></textarea>
+    <button class="btn btn-outline-warning" [disabled]='startComment' (click)='sendComment()'>SEND</button>
+    <div class="alert alert-success" *ngIf='alertComment'>Thank You for Commenting I will ubdate you soon</div>
+  
+  </div>
+
+  <h4><a cinfirmPassword (click)='imgTrue=!imgTrue'>Click To View Resume Of PardhaSaradhi Mannem</a></h4>
+
+  <div class="row imageTag">
+    <img [src]="imgUrl" alt="Some Problem with Image" height="1000px" width="1000px">
+  </div>
+  
+  
+<!-- Footer Start-->
+  <app-footer></app-footer>
+
+  <!-- Footer ENds -->

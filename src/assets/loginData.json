@@ -1,0 +1,57 @@
+[{
+            "Name": "PardhaSaradhi",
+            "Phone": "99999999999",
+            "Salary": 10000,
+            "id":0
+            
+          },{
+            "Name": "Mahendra",
+            "Phone": "99999555999999",
+            "Salary": 20000,
+            "id":1
+          },{
+            "Name": "Suneel Kumar",
+            "Phone": "88888888888",
+            "Salary": 30000,
+            "id":2
+          },{
+            "Name": "Ramesh",
+            "Phone": "777777777777",
+            "Salary": 40000,
+            "id":3
+          },{
+            "Name": "Manohar",
+            "Phone": "888888888888",
+            "Salary": 50000,
+            "id":4
+          },{
+            "Name": "Raman",
+            "Phone": "77777777777",
+            "Salary": 60000,
+            "id":5
+          },{
+            "Name": "PardhaSaradhi",
+            "Phone": "99999999999",
+            "Salary": 70000,
+            "id":6
+          },{
+            "Name": "Prasad",
+            "Phone": "99999999999",
+            "Salary": 80000,
+            "id":7
+          },{
+            "Name": "Rameshwar",
+            "Phone": "99999999999",
+            "Salary": 90000,
+            "id":8
+          },{
+            "Name": "Sundar Pichai",
+            "Phone": "88888888888",
+            "Salary": 99999,
+            "id":9
+          }
+        
+        
+        
+        ]
+          
