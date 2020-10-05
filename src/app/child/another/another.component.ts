@@ -25,41 +25,9 @@ export class AnotherComponent implements OnInit {
     
   })
   }
-// sub=new Subject();
-// message=new BehaviorSubject(Number);
-
-
-
-
-//   constructor() { }
-
-//   ngOnInit() {
-
-//     this.sub.next(this.con());
-  
-// }
-
-// con(){
-//   setTimeout(() => {
-//   return Math.random();
-    
-//   }, 0.5);
-// }
 
 constructor(private api:ApiServiceService, private sanitizer: DomSanitizer){}
 
-// onFileChanged(event){
-//   console.log('event is',event.target.files[0]);
-//   let url='https://pardhapersonnalportfolio.firebaseio.com/.json';
-
-// this.http.post(url,{'imageIs':event.target.files[0]}).subscribe(res=>{
-//   console.log('the sending res is',res);
-  
-// })
-
-
-  
-// }
 
 
 onFileChanged(evt){

@@ -25,10 +25,8 @@
             ],
             "styles": [
               "src/styles.css"
-              
             ],
-            "scripts": [
-       ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -117,6 +115,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularWFD"
+    }
+  },
+  "defaultProject": "AngularWFD",
+  "cli": {
+    "analytics": "aa9a1c70-c525-406d-bbf3-775d1982e580"
+  }
 }
